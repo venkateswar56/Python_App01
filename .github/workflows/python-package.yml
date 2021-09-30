@@ -33,4 +33,4 @@ jobs:
         with:
           user : __token__
           password: pypi-${{ secrets.test_pypi_password }}
-          repository_url: https://test.pypi.org/manage/projects/
+          repository_url: https://upload.pypi.org/legacy/
